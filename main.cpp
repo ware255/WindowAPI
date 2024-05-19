@@ -1,5 +1,4 @@
-#include <cstdio>
-#include "winapi.c"
+#include "winapi.h"
 
 typedef int(WINAPI *MesBox)(HWND, LPCWSTR, LPCWSTR, UINT);
 
